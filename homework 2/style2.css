@@ -1,0 +1,11 @@
+.paragpraph1 {
+    background: grey;
+    color: orange;
+    font-size: 20px;
+}
+.paragpraph2 {
+    text-shadow: 1px 1px 2px green;
+    font-style: oblique;
+    text-align: center;
+    font-size: 24px;
+}
