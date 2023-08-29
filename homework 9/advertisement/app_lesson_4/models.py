@@ -72,7 +72,7 @@ class advertisement(models.Model):
     def show_photo(self):
         if self.image:
             return format_html(
-                '<img src={} style="width: 50px; height: 50px;"/>', self.image.url
+                '<img src={} style="width: 110px; height: 110px;"/>', self.image.url
             )
         else:
             return format_html(
